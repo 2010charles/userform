@@ -1,0 +1,85 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User management system</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1 class="header">User manangement system</h1>
+            <h4 class="header4">Personal Details</h4>
+            <form action="#" class="form">
+                <legend class="legend">your inputes displays in the following fields</legend>
+                <span class="name">Name</span><br>
+                <span class="id_number">Id number</span><br>
+                <span class="country">country</span><br>
+            </form>
+            <div class="btn">
+                <button class="btns create">creat</button>
+                <button class="btns delete">delete</button>
+                <button class="btns read">read</button>
+                <button class="btns update">update</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+	<h1>User Management System</h1>
+	<form id="userForm">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required><br><br>
+		
+		<label for="id">ID Number:</label>
+		<input type="text" id="id" name="id" required><br><br>
+		
+		<label for="country">Country:</label>
+		<select id="country" name="country">
+			<option value="">--Select Country--</option>
+			<option value="USA">USA</option>
+			<option value="Canada">Canada</option>
+			<option value="UK">UK</option>
+			<option value="Australia">Australia</option>
+		</select><br><br>
+		
+		<label for="language">Language Spoken:</label>
+		<select id="language" name="language">
+			<option value="">--Select Language--</option>
+			<option value="English">English</option>
+			<option value="French">French</option>
+			<option value="Spanish">Spanish</option>
+			<option value="German">German</option>
+		</select><br><br>
+		
+		<button type="submit" id="submitBtn">Submit</button>
+	</form>
+	
+	<table id="userTable">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>ID Number</th>
+				<th>Country</th>
+				<th>Language</th>
+				<th>Action</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+	
+	<script src="app.js"></script>
+</body>
+</html>

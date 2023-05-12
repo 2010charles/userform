@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*.container{
+    background: linear-gradient(45deg,green,yellow,red);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    border: 2px solid blueviolet;
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+.header{
+    color: blueviolet;
+}
+.header4{
+    color: black;
+    margin-top: 15px ;
+    margin-left: 80px;
+    font-size: 20px;
+}
+.legend{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 40px;
+    color: rgb(47, 21, 72);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.name{
+    font-weight: bold;
+    font-size: 17px;
+}
+.id_number{
+    font-weight: bold;
+    font-size: 17px;
+}
+.country{
+    font-weight: bold;
+    font-size: 17px;
+}
+.btns{
+    background-color: red;
+    color: white;
+    padding: 8px 13px;
+    border-radius: 8px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.btns:hover{
+    background-color: rgb(151, 43, 43);
+}*/
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+    background: linear-gradient(45deg,green,yellow,red);
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0;
+}
+
+form {
+	border: 1px solid #ccc;
+	padding: 20px;
+	width: 400px;
+	margin: 0 auto;
+    border: 2px solid rgb(55, 32, 77);
+    border-radius: 20px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+form input, form select {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+form button {
+	padding: 10px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 20px;
+}
+
+table th, table td {
+	padding: 10px;
+	text-align: left;
+	border: 1px solid #ccc;
+}
+
+table th {
+	background-color: #007bff;
+	color: #fff;
+}
+#userTable{
+    display: block;
+    margin-left: 480px;
+}
